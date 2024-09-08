@@ -1,6 +1,7 @@
 // Fetching Todo List from API and handling completion of tasks
 document.addEventListener("DOMContentLoaded", () => {
-    const apiURL = 'https://hompsonplaceholder.tyscode.com.todos';
+    // const apiURL = 'https://hompsonplaceholder.tyscode.com.todos';
+    const apiURL="https://jsonplaceholder.typicode.com/todos"
     const todoItems = document.getElementById('todoItems');
     let completedTasks = 0;
 
